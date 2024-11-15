@@ -1,0 +1,33 @@
+body{
+  font-family: monospace;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images{
+  width: 90px;
+  height: auto;
+  transition: transform 0.5s;
+  cursor: pointer;
+  margin: 1rem;
+}
+.container{
+  text-align: center;
+}
+.result{
+  margin: 6rem;
+  border: solid 1px black;
+  padding: 30px;
+  border-radius: 10px;
+}
+.scores{
+  display: flex;
+  flex-direction: column;
+}
+.images:hover{
+ transform: scale(1.2);
+}
+.images:active{
+  transform: scale(0.5);
+}
