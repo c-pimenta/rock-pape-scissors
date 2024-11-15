@@ -5,6 +5,24 @@ body{
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 480px) {
+  body{
+    font-size: 12px;
+    flex-direction: column; 
+    
+    }
+    .images{
+    width: 60px;
+    }
+    .result{
+      margin: 2rem;
+      padding: 15px; 
+    }
+      .scores {
+        margin-top: 2rem; 
+    }
+  }
+
 .images{
   width: 90px;
   height: auto;
